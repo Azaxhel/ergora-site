@@ -44,7 +44,7 @@ main { min-height: 100vh; overflow-x: hidden; }
 .hero::before { content: ""; position: absolute; z-index: -1; inset: 0; background-image: linear-gradient(rgba(244,241,236,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(244,241,236,.035) 1px, transparent 1px); background-size: 72px 72px; mask-image: linear-gradient(to bottom, black, transparent 78%); }
 .site-header { width: min(1240px, 100%); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-bottom: 68px; }
 .brand { display: inline-flex; align-items: baseline; font-size: 1rem; font-weight: 730; letter-spacing: .15em; line-height: 1; }
-.brand-accent { color: var(--teal-bright); font: inherit; letter-spacing: .15em; }
+.brand-accent { color: var(--teal-bright); font: inherit; font-size: 1.08em; letter-spacing: .15em; }
 nav { display: flex; align-items: center; gap: clamp(18px, 3vw, 38px); color: rgba(244,241,236,.66); font-size: .88rem; }
 nav a { position: relative; transition: color 180ms ease; }
 nav a::after { content: ""; position: absolute; right: 0; bottom: -7px; left: 0; height: 1px; background: var(--teal-bright); transform: scaleX(0); transform-origin: right; transition: transform 180ms ease; }
