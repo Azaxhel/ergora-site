@@ -132,7 +132,6 @@ h2 { max-width: 760px; color: var(--carbon); font-size: clamp(2.4rem, 5.1vw, 5re
 .compare-card { border: 1px solid var(--line-dark); padding: clamp(24px, 4vw, 42px); background: transparent; transition: transform 180ms ease, border-color 180ms ease, background 180ms ease, box-shadow 180ms ease; }
 .compare-label { display: flex; justify-content: space-between; align-items: center; padding-bottom: 24px; border-bottom: 1px solid var(--line-dark); }
 .compare-label span { font-size: 1.2rem; font-weight: 620; }
-.compare-label i { color: var(--teal-bright); font-family: var(--font-geist-mono, "Courier New"), monospace; font-size: .72rem; font-style: normal; }
 .compare-card ul { list-style: none; margin: 24px 0 0; padding: 0; display: grid; gap: 18px; color: rgba(244,241,236,.68); }
 .compare-card li { display: flex; align-items: center; gap: 12px; }
 .compare-card li::before { content: ""; width: 16px; height: 1px; background: rgba(244,241,236,.28); }
