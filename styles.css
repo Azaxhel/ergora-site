@@ -61,7 +61,7 @@ h1 { margin-bottom: 28px; max-width: 780px; font-size: clamp(3.15rem, 6.2vw, 6.4
 .lead { max-width: 660px; color: rgba(244,241,236,.7); font-size: clamp(1.08rem, 1.55vw, 1.3rem); line-height: 1.65; }
 .hero-actions { margin-top: 42px; display: flex; flex-wrap: wrap; align-items: center; gap: 20px 28px; }
 .button { display: inline-flex; align-items: center; justify-content: space-between; gap: 22px; min-height: 52px; padding: 0 22px; border: 1px solid rgba(244,241,236,.76); border-radius: 2px; background: var(--off-white); color: var(--carbon); font-weight: 650; transition: transform 180ms ease, background 180ms ease, border-color 180ms ease; }
-.button span { color: var(--teal); }
+.button span { color: var(--teal); font-family: Arial, sans-serif; font-size: 1.05em; line-height: 1; }
 .button:hover, .button:focus-visible { transform: translateY(-2px); background: white; border-color: var(--teal-bright); }
 .text-link { color: rgba(244,241,236,.72); font-size: .94rem; border-bottom: 1px solid rgba(244,241,236,.26); padding: 10px 0; transition: color 180ms ease, border-color 180ms ease; }
 .text-link span { color: var(--teal-bright); margin-left: 8px; }
@@ -190,7 +190,7 @@ footer a:hover { color: var(--teal-bright); }
   h1 { font-size: clamp(2.65rem, 12.5vw, 4rem); }
   h2 { font-size: clamp(2.25rem, 11vw, 3.4rem); }
   .hero-actions { align-items: stretch; }
-  .hero-actions .button, .button { width: 100%; }
+  .hero-actions .button, .button { width: fit-content; max-width: 100%; min-height: 50px; padding: 0 18px; gap: 16px; font-size: .95rem; }
   .statement-slider { min-height: 470px; }
   .statement-slide { font-size: clamp(2.15rem, 10.5vw, 3.25rem); }
   .contact-block { min-width: 0; }
